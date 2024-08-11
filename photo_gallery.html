@@ -1,0 +1,791 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewpoint" content="width=device-width, initial-scale=1.0">
+	<meta name="description" content="A website designed around me and my interests.">
+	
+	<link rel="stylesheet" type="text/css" href="styles/style.css">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+	<link href='https://fonts.googleapis.com/css?family=Roboto Slab' rel='stylesheet'>
+	
+	<!-- Mobile Menu Javascript -->
+	<script>
+	function myFunction() {
+		var x = document.getElementById("myTopnav");
+		if (x.className === "topnav") {
+			x.className += " responsive";
+		} else {
+			x.className = "topnav";
+		}
+	}
+	</script>
+	
+	<title>PHOTO GALLERY</title>
+	<style>
+div.gallery {
+  border: 1px solid #ccc;
+}
+
+div.gallery:hover {
+  border: 1px solid #777;
+}
+
+div.gallery img {
+  width: 100%;
+  height: auto;
+}
+
+div.desc {
+  padding: 15px;
+  text-align: center;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.responsive {
+  padding: 0 6px;
+  float: left;
+  width: 24.99999%;
+}
+
+@media only screen and (max-width: 700px) {
+  .responsive {
+    width: 49.99999%;
+    margin: 6px 0;
+  }
+}
+
+@media only screen and (max-width: 500px) {
+  .responsive {
+    width: 100%;
+  }
+}
+
+.clearfix:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+</style>
+</head>
+<body>
+	<header>
+		<div class="topnav" id="myTopnav">	
+			<a href="index.html">Home</a>
+			<a href="about.html">About</a>
+			<a href="photo_gallery.html">Photo Gallery</a>
+			<a href="video.html">Video</a>
+			<a href="game.html">Game</a>
+			<a href="javascript:void(0);" class="icon" onclick="myFunction()">
+				<i class="fa fa-bars"></i>
+			</a>				
+		</div>
+	</header>
+	<div class="responsive">
+  <div class="gallery">
+    <a target="_blank" href="images/20230915_154047.jpg">
+      <img src="images/20230915_154047.jpg" alt="Flight Terminal">
+    </a>
+    <div class="desc">At the flight terminal going to the UK.</div>
+  </div>
+</div>
+
+<div class="responsive">
+  <div class="gallery">
+    <a target="_blank" href="images/20230915_174351.jpg">
+      <img src="images/20230915_174351.jpg" alt="Plane">
+    </a>
+    <div class="desc">On the plane readying for takeoff.</div>
+  </div>
+</div>
+
+<div class="responsive">
+  <div class="gallery">
+    <a target="_blank" href="images/20230916_005554.jpg">
+      <img src="images/20230916_005554.jpg" alt="Destination Updates">
+    </a>
+    <div class="desc">Flight tablet updates on arrival to the UK.</div>
+  </div>
+</div>
+
+<div class="responsive">
+  <div class="gallery">
+    <a target="_blank" href="images/20230916_083204.jpg">
+      <img src="images/20230916_083204.jpg" alt="Flight Exit">
+    </a>
+    <div class="desc">Exiting line for the UK flight into customs.</div>
+  </div>
+</div>
+
+<div class="responsive">
+  <div class="gallery">
+    <a target="_blank" href="images/20230916_092753.jpg">
+      <img src="images/20230916_092753.jpg" alt="Transit Info">
+    </a>
+    <div class="desc">Train system information board in the airport.</div>
+  </div>
+</div>
+
+<div class="responsive">
+  <div class="gallery">
+    <a target="_blank" href="images/20230916_093038.jpg">
+      <img src="images/20230916_093038.jpg" alt="Transit">
+    </a>
+    <div class="desc">Train to paddington arriving.</div>
+  </div>
+</div>
+
+<div class="responsive">
+  <div class="gallery">
+    <a target="_blank" href="images/20230916_093534.jpg">
+      <img src="images/20230916_093534.jpg" alt="Scenary">
+    </a>
+    <div class="desc">Scenary to Paddington. (Part 1)</div>
+  </div>
+</div>
+
+<div class="responsive">
+  <div class="gallery">
+    <a target="_blank" href="images/20230916_093625.jpg">
+      <img src="images/20230916_093625.jpg" alt="Scenary">
+    </a>
+    <div class="desc">Scenary to Paddington. (Part 2)</div>
+  </div>
+</div>
+
+<div class="responsive">
+  <div class="gallery">
+    <a target="_blank" href="images/20230916_093751.jpg">
+      <img src="images/20230916_093751.jpg" alt="Scenary">
+    </a>
+    <div class="desc">Scenary to Paddington. (Part 3)</div>
+  </div>
+</div>
+
+<div class="responsive">
+  <div class="gallery">
+    <a target="_blank" href="images/20230916_094121.jpg">
+      <img src="images/20230916_094121.jpg" alt="Scenary">
+    </a>
+    <div class="desc">Scenary to Paddington. (Part 4)</div>
+  </div>
+</div>
+
+<div class="responsive">
+  <div class="gallery">
+    <a target="_blank" href="images/20230916_100529.jpg">
+      <img src="images/20230916_100529.jpg" alt="Train Line">
+    </a>
+    <div class="desc">Line for the train to St Pancras. (Part 1)</div>
+  </div>
+</div>
+
+<div class="responsive">
+  <div class="gallery">
+    <a target="_blank" href="images/20230916_100533.jpg">
+      <img src="images/20230916_100533.jpg" alt="Train Line">
+    </a>
+    <div class="desc">Line for the train to St Pancras. (Part 2)</div>
+  </div>
+</div>
+
+<div class="responsive">
+  <div class="gallery">
+    <a target="_blank" href="images/20230916_101039.jpg">
+      <img src="images/20230916_101039.jpg" alt="Train To Pancras">
+    </a>
+    <div class="desc">The train to St Pancras.</div>
+  </div>
+</div>
+
+<div class="responsive">
+  <div class="gallery">
+    <a target="_blank" href="images/20230916_174459.jpg">
+      <img src="images/20230916_174459.jpg" alt="Canterbury">
+    </a>
+    <div class="desc">The sights of Canterbury. (Part 1)</div>
+  </div>
+</div>
+
+<div class="responsive">
+  <div class="gallery">
+    <a target="_blank" href="images/20230916_175714.jpg">
+      <img src="images/20230916_175714.jpg" alt="Canterbury">
+    </a>
+    <div class="desc">The sights of Canterbury. (Part 2)</div>
+  </div>
+</div>
+
+<div class="responsive">
+  <div class="gallery">
+    <a target="_blank" href="images/20230916_175716.jpg">
+      <img src="images/20230916_175716.jpg" alt="Canterbury">
+    </a>
+    <div class="desc">The sights of Canterbury. (Part 3)</div>
+  </div>
+</div>
+
+<div class="responsive">
+  <div class="gallery">
+    <a target="_blank" href="images/20230921_172850.jpg">
+      <img src="images/20230921_172850.jpg" alt="Canterbury">
+    </a>
+    <div class="desc">The sights of Canterbury. (Part 4)</div>
+  </div>
+</div>
+
+<div class="responsive">
+  <div class="gallery">
+    <a target="_blank" href="images/20230918_155359.jpg">
+      <img src="images/20230918_155359.jpg" alt="Canterbury">
+    </a>
+    <div class="desc">The sights of Canterbury. (Part 5)</div>
+  </div>
+</div>
+
+<div class="responsive">
+  <div class="gallery">
+    <a target="_blank" href="images/20230920_121459.jpg">
+      <img src="images/20230920_121459.jpg" alt="Canterbury">
+    </a>
+    <div class="desc">The sights of Canterbury. (Part 6)</div>
+  </div>
+</div>
+
+<div class="responsive">
+  <div class="gallery">
+    <a target="_blank" href="images/20230920_121936.jpg">
+      <img src="images/20230920_121936.jpg" alt="Canterbury">
+    </a>
+    <div class="desc">The sights of Canterbury. (Part 7)</div>
+  </div>
+</div>
+
+<div class="responsive">
+  <div class="gallery">
+    <a target="_blank" href="images/20230918_134913.jpg">
+      <img src="images/20230918_134913.jpg" alt="Canterbury">
+    </a>
+    <div class="desc">The sights of Canterbury. (Part 8)</div>
+  </div>
+</div>
+
+<div class="responsive">
+  <div class="gallery">
+    <a target="_blank" href="images/20230921_175701.jpg">
+      <img src="images/20230921_175701.jpg" alt="Canterbury">
+    </a>
+    <div class="desc">The sights of Canterbury. (Part 9)</div>
+  </div>
+</div>
+
+<div class="responsive">
+  <div class="gallery">
+    <a target="_blank" href="images/20231009_175232.jpg">
+      <img src="images/20231009_175232.jpg" alt="Canterbury">
+    </a>
+    <div class="desc">The sights of Canterbury. (Part 10)</div>
+  </div>
+</div>
+
+<div class="responsive">
+  <div class="gallery">
+    <a target="_blank" href="images/20230924_130350.jpg">
+      <img src="images/20230924_130350.jpg" alt="Canterbury">
+    </a>
+    <div class="desc">Canterbury Christ Church campus. (Part 1)</div>
+  </div>
+</div>
+
+<div class="responsive">
+  <div class="gallery">
+    <a target="_blank" href="images/20230924_130527.jpg">
+      <img src="images/20230924_130527.jpg" alt="Canterbury">
+    </a>
+    <div class="desc">Canterbury Christ Church campus. (Part 2)</div>
+  </div>
+</div>
+
+<div class="responsive">
+  <div class="gallery">
+    <a target="_blank" href="images/20230924_130736.jpg">
+      <img src="images/20230924_130736.jpg" alt="Canterbury">
+    </a>
+    <div class="desc">Canterbury Christ Church campus. (Part 3)</div>
+  </div>
+</div>
+
+<div class="responsive">
+  <div class="gallery">
+    <a target="_blank" href="images/20230924_130822.jpg">
+      <img src="images/20230924_130822.jpg" alt="Canterbury">
+    </a>
+    <div class="desc">Canterbury Christ Church campus. (Part 4)</div>
+  </div>
+</div>
+
+<div class="responsive">
+  <div class="gallery">
+    <a target="_blank" href="images/20230924_130848.jpg">
+      <img src="images/20230924_130848.jpg" alt="Canterbury">
+    </a>
+    <div class="desc">Canterbury Christ Church campus. (Part 5)</div>
+  </div>
+</div>
+
+<div class="responsive">
+  <div class="gallery">
+    <a target="_blank" href="images/20230924_131927.jpg">
+      <img src="images/20230924_131927.jpg" alt="Canterbury">
+    </a>
+    <div class="desc">Canterbury Christ Church campus. (Part 6)</div>
+  </div>
+</div>
+
+<div class="responsive">
+  <div class="gallery">
+    <a target="_blank" href="images/20230924_131937.jpg">
+      <img src="images/20230924_131937.jpg" alt="Canterbury">
+    </a>
+    <div class="desc">Canterbury Christ Church campus. (Part 7)</div>
+  </div>
+</div>
+
+<div class="responsive">
+  <div class="gallery">
+    <a target="_blank" href="images/20231021_130618.jpg">
+      <img src="images/20231021_130618.jpg" alt="Canterbury">
+    </a>
+    <div class="desc">The sites of London. (Part 1)</div>
+  </div>
+</div>
+
+<div class="responsive">
+  <div class="gallery">
+    <a target="_blank" href="images/20231021_130623.jpg">
+      <img src="images/20231021_130623.jpg" alt="Canterbury">
+    </a>
+    <div class="desc">The sites of London. (Part 2)</div>
+  </div>
+</div>
+
+<div class="responsive">
+  <div class="gallery">
+    <a target="_blank" href="images/20231021_130759.jpg">
+      <img src="images/20231021_130759.jpg" alt="Canterbury">
+    </a>
+    <div class="desc">The sites of London. (Part 3)</div>
+  </div>
+</div>
+
+<div class="responsive">
+  <div class="gallery">
+    <a target="_blank" href="images/20231021_130810.jpg">
+      <img src="images/20231021_130810.jpg" alt="Canterbury">
+    </a>
+    <div class="desc">The sites of London. (Part 4)</div>
+  </div>
+</div>
+
+<div class="responsive">
+  <div class="gallery">
+    <a target="_blank" href="images/20231021_130822.jpg">
+      <img src="images/20231021_130822.jpg" alt="Canterbury">
+    </a>
+    <div class="desc">The sites of London. (Part 5)</div>
+  </div>
+</div>
+
+<div class="responsive">
+  <div class="gallery">
+    <a target="_blank" href="images/20231021_130848.jpg">
+      <img src="images/20231021_130848.jpg" alt="Canterbury">
+    </a>
+    <div class="desc">The sites of London. (Part 6)</div>
+  </div>
+</div>
+
+<div class="responsive">
+  <div class="gallery">
+    <a target="_blank" href="images/20231021_130935.jpg">
+      <img src="images/20231021_130935.jpg" alt="Canterbury">
+    </a>
+    <div class="desc">The sites of London. (Part 7)</div>
+  </div>
+</div>
+
+<div class="responsive">
+  <div class="gallery">
+    <a target="_blank" href="images/20231021_130947.jpg">
+      <img src="images/20231021_130947.jpg" alt="Canterbury">
+    </a>
+    <div class="desc">The sites of London. (Part 8)</div>
+  </div>
+</div>
+
+<div class="responsive">
+  <div class="gallery">
+    <a target="_blank" href="images/20231021_131022.jpg">
+      <img src="images/20231021_131022.jpg" alt="Canterbury">
+    </a>
+    <div class="desc">The sites of London. (Part 9)</div>
+  </div>
+</div>
+
+<div class="responsive">
+  <div class="gallery">
+    <a target="_blank" href="images/20231021_131038.jpg">
+      <img src="images/20231021_131038.jpg" alt="Canterbury">
+    </a>
+    <div class="desc">The sites of London. (Part 10)</div>
+  </div>
+</div>
+
+<div class="responsive">
+  <div class="gallery">
+    <a target="_blank" href="images/20231021_131209.jpg">
+      <img src="images/20231021_131209.jpg" alt="Canterbury">
+    </a>
+    <div class="desc">The sites of London. (Part 11)</div>
+  </div>
+</div>
+
+<div class="responsive">
+  <div class="gallery">
+    <a target="_blank" href="images/20231021_131224.jpg">
+      <img src="images/20231021_131224.jpg" alt="Canterbury">
+    </a>
+    <div class="desc">The sites of London. (Part 12)</div>
+  </div>
+</div>
+
+<div class="responsive">
+  <div class="gallery">
+    <a target="_blank" href="images/20231021_131306.jpg">
+      <img src="images/20231021_131306.jpg" alt="Canterbury">
+    </a>
+    <div class="desc">The sites of London. (Part 13)</div>
+  </div>
+</div>
+
+<div class="responsive">
+  <div class="gallery">
+    <a target="_blank" href="images/20231021_131456.jpg">
+      <img src="images/20231021_131456.jpg" alt="Canterbury">
+    </a>
+    <div class="desc">The sites of London. (Part 14)</div>
+  </div>
+</div>
+
+<div class="responsive">
+  <div class="gallery">
+    <a target="_blank" href="images/20231021_131506.jpg">
+      <img src="images/20231021_131506.jpg" alt="Canterbury">
+    </a>
+    <div class="desc">The sites of London. (Part 15)</div>
+  </div>
+</div>
+
+<div class="responsive">
+  <div class="gallery">
+    <a target="_blank" href="images/20231021_133443.jpg">
+      <img src="images/20231021_133443.jpg" alt="Canterbury">
+    </a>
+    <div class="desc">The sites of London. (Part 16)</div>
+  </div>
+</div>
+
+<div class="responsive">
+  <div class="gallery">
+    <a target="_blank" href="images/20231021_133507.jpg">
+      <img src="images/20231021_133507.jpg" alt="Canterbury">
+    </a>
+    <div class="desc">The sites of London. (Part 17)</div>
+  </div>
+</div>
+
+<div class="responsive">
+  <div class="gallery">
+    <a target="_blank" href="images/20231021_143641.jpg">
+      <img src="images/20231021_143641.jpg" alt="Canterbury">
+    </a>
+    <div class="desc">The sites of London. (Part 18)</div>
+  </div>
+</div>
+
+<div class="responsive">
+  <div class="gallery">
+    <a target="_blank" href="images/20231021_143708.jpg">
+      <img src="images/20231021_143708.jpg" alt="Canterbury">
+    </a>
+    <div class="desc">The sites of London. (Part 19)</div>
+  </div>
+</div>
+
+<div class="responsive">
+  <div class="gallery">
+    <a target="_blank" href="images/20231021_144721.jpg">
+      <img src="images/20231021_144721.jpg" alt="Canterbury">
+    </a>
+    <div class="desc">The sites of London. (Part 20)</div>
+  </div>
+</div>
+
+<div class="responsive">
+  <div class="gallery">
+    <a target="_blank" href="images/20231021_145048.jpg">
+      <img src="images/20231021_145048.jpg" alt="Canterbury">
+    </a>
+    <div class="desc">The sites of London. (Part 21)</div>
+  </div>
+</div>
+
+<div class="responsive">
+  <div class="gallery">
+    <a target="_blank" href="images/20231021_145056.jpg">
+      <img src="images/20231021_145056.jpg" alt="Canterbury">
+    </a>
+    <div class="desc">The sites of London. (Part 22)</div>
+  </div>
+</div>
+
+<div class="responsive">
+  <div class="gallery">
+    <a target="_blank" href="images/20231021_145101.jpg">
+      <img src="images/20231021_145101.jpg" alt="Canterbury">
+    </a>
+    <div class="desc">The sites of London. (Part 23)</div>
+  </div>
+</div>
+
+<div class="responsive">
+  <div class="gallery">
+    <a target="_blank" href="images/20231021_145111.jpg">
+      <img src="images/20231021_145111.jpg" alt="Canterbury">
+    </a>
+    <div class="desc">The sites of London. (Part 24)</div>
+  </div>
+</div>
+
+<div class="responsive">
+  <div class="gallery">
+    <a target="_blank" href="images/20231021_145319.jpg">
+      <img src="images/20231021_145319.jpg" alt="Canterbury">
+    </a>
+    <div class="desc">The sites of London. (Part 25)</div>
+  </div>
+</div>
+
+<div class="responsive">
+  <div class="gallery">
+    <a target="_blank" href="images/20231021_160149.jpg">
+      <img src="images/20231021_160149.jpg" alt="Canterbury">
+    </a>
+    <div class="desc">The sites of London. (Part 26)</div>
+  </div>
+</div>
+
+<div class="responsive">
+  <div class="gallery">
+    <a target="_blank" href="images/20231021_160235.jpg">
+      <img src="images/20231021_160235.jpg" alt="Canterbury">
+    </a>
+    <div class="desc">The sites of London. (Part 27)</div>
+  </div>
+</div>
+
+<div class="responsive">
+  <div class="gallery">
+    <a target="_blank" href="images/20231021_160251.jpg">
+      <img src="images/20231021_160251.jpg" alt="Canterbury">
+    </a>
+    <div class="desc">The sites of London. (Part 28)</div>
+  </div>
+</div>
+
+<div class="responsive">
+  <div class="gallery">
+    <a target="_blank" href="images/20231021_174502.jpg">
+      <img src="images/20231021_174502.jpg" alt="Canterbury">
+    </a>
+    <div class="desc">The sites of London. (Part 29)</div>
+  </div>
+</div>
+
+<div class="responsive">
+  <div class="gallery">
+    <a target="_blank" href="images/20231022_084300.jpg">
+      <img src="images/20231022_084300.jpg" alt="Canterbury">
+    </a>
+    <div class="desc">The sites of London. (Part 30)</div>
+  </div>
+</div>
+
+<div class="responsive">
+  <div class="gallery">
+    <a target="_blank" href="images/20231022_084431.jpg">
+      <img src="images/20231022_084431.jpg" alt="Canterbury">
+    </a>
+    <div class="desc">The sites of London. (Part 31)</div>
+  </div>
+</div>
+
+<div class="responsive">
+  <div class="gallery">
+    <a target="_blank" href="images/20231022_084519.jpg">
+      <img src="images/20231022_084519.jpg" alt="Canterbury">
+    </a>
+    <div class="desc">The sites of London. (Part 32)</div>
+  </div>
+</div>
+
+<div class="responsive">
+  <div class="gallery">
+    <a target="_blank" href="images/20231022_084857.jpg">
+      <img src="images/20231022_084857.jpg" alt="Canterbury">
+    </a>
+    <div class="desc">The sites of London. (Part 33)</div>
+  </div>
+</div>
+
+<div class="responsive">
+  <div class="gallery">
+    <a target="_blank" href="images/20231022_092225.jpg">
+      <img src="images/20231022_092225.jpg" alt="Canterbury">
+    </a>
+    <div class="desc">The sites of London. (Part 34)</div>
+  </div>
+</div>
+
+<div class="responsive">
+  <div class="gallery">
+    <a target="_blank" href="images/20231022_084542.jpg">
+      <img src="images/20231022_084542.jpg" alt="Canterbury">
+    </a>
+    <div class="desc">The sites of London. (Part 35)</div>
+  </div>
+</div>
+
+<div class="responsive">
+  <div class="gallery">
+    <a target="_blank" href="images/20231022_084554.jpg">
+      <img src="images/20231022_084554.jpg" alt="Canterbury">
+    </a>
+    <div class="desc">The sites of London. (Part 36)</div>
+  </div>
+</div>
+
+<div class="responsive">
+  <div class="gallery">
+    <a target="_blank" href="images/20231209_092454.jpg">
+      <img src="images/20231209_092454.jpg" alt="Canterbury">
+    </a>
+    <div class="desc">The sites of London. (Part 37)</div>
+  </div>
+</div>
+
+<div class="responsive">
+  <div class="gallery">
+    <a target="_blank" href="images/20231209_092457.jpg">
+      <img src="images/20231209_092457.jpg" alt="Canterbury">
+    </a>
+    <div class="desc">The sites of London. (Part 38)</div>
+  </div>
+</div>
+
+<div class="responsive">
+  <div class="gallery">
+    <a target="_blank" href="images/20231209_092759.jpg">
+      <img src="images/20231209_092759.jpg" alt="Canterbury">
+    </a>
+    <div class="desc">The sites of London. (Part 39)</div>
+  </div>
+</div>
+
+<div class="responsive">
+  <div class="gallery">
+    <a target="_blank" href="images/20231209_092802.jpg">
+      <img src="images/20231209_092802.jpg" alt="Canterbury">
+    </a>
+    <div class="desc">The sites of London. (Part 40)</div>
+  </div>
+</div>
+
+<div class="responsive">
+  <div class="gallery">
+    <a target="_blank" href="images/20231209_092805.jpg">
+      <img src="images/20231209_092805.jpg" alt="Canterbury">
+    </a>
+    <div class="desc">The sites of London. (Part 41)</div>
+  </div>
+</div>
+
+<div class="responsive">
+  <div class="gallery">
+    <a target="_blank" href="images/20231209_192614.jpg">
+      <img src="images/20231209_192614.jpg" alt="Canterbury">
+    </a>
+    <div class="desc">The sites of London. (Part 42)</div>
+  </div>
+</div>
+
+<div class="responsive">
+  <div class="gallery">
+    <a target="_blank" href="images/20231209_194257.jpg">
+      <img src="images/20231209_194257.jpg" alt="Canterbury">
+    </a>
+    <div class="desc">The sites of London. (Part 43)</div>
+  </div>
+</div>
+
+<div class="responsive">
+  <div class="gallery">
+    <a target="_blank" href="images/20231209_194312.jpg">
+      <img src="images/20231209_194312.jpg" alt="Canterbury">
+    </a>
+    <div class="desc">The sites of London. (Part 44)</div>
+  </div>
+</div>
+
+<div class="responsive">
+  <div class="gallery">
+    <a target="_blank" href="images/IMG_20231024_095741.jpg">
+      <img src="images/IMG_20231024_095741.jpg" alt="Canterbury">
+    </a>
+    <div class="desc">The sites of London. (Part 45)</div>
+  </div>
+</div>
+
+<div class="responsive">
+  <div class="gallery">
+    <a target="_blank" href="images/IMG_20231024_095747.jpg">
+      <img src="images/IMG_20231024_095747.jpg" alt="Canterbury">
+    </a>
+    <div class="desc">The sites of London. (Part 46)</div>
+  </div>
+</div>
+
+<div class="responsive">
+  <div class="gallery">
+    <a target="_blank" href="images/IMG_20231024_095811.jpg">
+      <img src="images/IMG_20231024_095811.jpg" alt="Canterbury">
+    </a>
+    <div class="desc">The sites of London. (Part 47)</div>
+  </div>
+</div>
+
+<div class="responsive">
+  <div class="gallery">
+    <a target="_blank" href="images/IMG_20231024_095827.jpg">
+      <img src="images/IMG_20231024_095827.jpg" alt="Canterbury">
+    </a>
+    <div class="desc">The sites of London. (Part 48)</div>
+  </div>
+</div>
+
+<div class="clearfix"></div>
+</body>
+</html>

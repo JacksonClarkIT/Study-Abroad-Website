@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta name="viewpoint" content="width=device-width, initial-scale=1.0">
+	<meta name="description" content="A website designed around me and my interests.">
+	
+	<link rel="stylesheet" type="text/css" href="styles/style.css">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+	<link href='https://fonts.googleapis.com/css?family=Roboto Slab' rel='stylesheet'>
+	
+	<!-- Mobile Menu Javascript -->
+	<script>
+	function myFunction() {
+		var x = document.getElementById("myTopnav");
+		if (x.className === "topnav") {
+			x.className += " responsive";
+		} else {
+			x.className = "topnav";
+		}
+	}
+	</script>
+	
+	<title>HOME</title>
+</head>
+<body>
+	<header>
+		<div class="topnav" id="myTopnav">	
+			<a href="index.html">Home</a>
+			<a href="about.html">About</a>
+			<a href="photo_gallery.html">Photo Gallery</a>
+			<a href="video.html">Video</a>
+			<a href="game.html">Game</a>
+			<a href="javascript:void(0);" class="icon" onclick="myFunction()">
+				<i class="fa fa-bars"></i>
+			</a>				
+		</div>
+	</header>
+	<div class="aside-left">
+		<h3 align="center"></h3>
+		<p align="center"></p>
+	</div>
+	<main>
+		<h1 align="center">My Study Abroad Trip</h1>
+		<p align="center"><img src="images/ISUStudyAbroad.jpg"></p>
+		<p align="center"><img src="images/canterbury_christ_church_university.jpg"></p>
+	</main>
+	<aside>
+		<h2></h2>
+		<h4></h4>
+	</aside>
+	<footer>
+		<div class="left-footer">
+			<p align="center">Before you go!</p>
+		</div>
+		<div class="center-footer">
+			<p align="center">Thank you for checking out this page!</p>
+		</div>
+		<div class="right-footer">
+			<p align="center">I hope you like it and it is easy to navigate!</p>
+		</div>
+	</footer>
+</body>
+</html>
